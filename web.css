@@ -1,0 +1,421 @@
+
+header{
+    background-color:rgb(15, 74, 164) ;
+    padding-left: 3rem;
+    padding-right: 3rem;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+.left span{
+    margin-right:1rem;
+}
+.right i{
+    margin-right:1rem ;
+}
+.fix{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+}
+.fix span{
+    font-weight: bold;
+    font-size: larger;
+}
+.fix a{
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem;
+}
+.fix a:hover{
+    font-weight: bold;
+    transition: 0.3s;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+.fix select{
+    background-color: rgb(15, 74, 164);
+    border: none;
+    font-size: medium;
+    color: white;
+}
+.center{
+    margin-top: 5rem;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height:30rem
+}
+.center .text h2{
+    font-weight:700 ;
+}
+.center button{
+    border:1px solid white;
+    height: 3em;
+    width: 10em;
+    border-radius: 2em;
+    background-color:rgb(19, 84, 181) ;
+    color:white;
+}
+.center .video{
+    height: 2em;
+    width:2em;
+    margin-left: 20px;
+}
+.image img{
+    height:20rem;
+    width:35rem;
+}
+.bottom{
+    position: absolute;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    top:60%;
+}
+.bottom div{
+    height: 12em;
+    width: 15rem;
+    border-radius: 1em;
+    background-color:rgb(19, 84, 181);
+    color:white;
+    margin-right: 10em;
+} 
+.bottom div i{
+    display: flex;
+    font-size:xx-large ;
+    justify-content: space-evenly;
+    align-items:center;
+    line-height: 100px;
+}
+.bottom div h6{
+    text-align: center;
+    font-size: medium;
+    margin-top: 1px;
+}
+section{
+    margin-top: 10rem;
+}
+section .content{
+    display:flex;
+    padding-left:3rem ;
+}
+.content .left{
+    margin-right: 2rem;
+
+}
+section h1{
+    text-align: center;
+}
+section p{
+    text-align: center;
+}
+.left img{
+ height:30em;
+ width:35em;
+ border-radius:10px;
+}
+.left p{
+    text-align: left;
+}
+.right img{
+    height:30em;
+    width:35em;
+    border-radius:10px;
+}
+.right p{
+    text-align: left;
+}
+.brands img{
+    height: 2rem;
+    width:5rem;
+    margin: 5rem;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+}
+.info img{
+    height: 15em;
+
+}
+.image-container {
+    padding-left: 2rem;
+    position: relative;
+    display: inline-block;
+    margin-top: 5rem;
+}
+
+.image-container img {
+    display: block;
+    width: 95rem;
+    height: 45rem;
+    border-radius: 10px;
+    /* margin-left: 7.5rem;*/
+    
+}
+.text-overlay{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.text-overlay button{
+    background: none;
+    height: 3em;
+    color:white;
+    width:15em;
+    border-radius: 5em;
+    font-size: 20px;
+}
+.services{
+    background-color: whitesmoke;
+    margin-top: 5rem;
+    padding-top:1rem ;
+}
+.services h6{
+    text-align: center;
+}
+.services p{
+    text-align: center;
+}
+.our_services{
+    margin: 3rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.services .our_services div{
+    height: 25rem;
+    width: 25rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    padding:30px;
+}
+.our_services div h5{
+    text-align: left;
+    font-size: xx-large;
+}
+.our_services div p{
+    text-align: left;
+}
+.our_services i{
+    font-size: xx-large;
+}
+.test{
+    display: flex;
+    padding: 2rem;
+}
+.imaget img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50px;
+    margin: 20px;
+
+}
+.test .members{
+    height: 20rem;
+    width:30rem;
+    border: 5px solid whitesmoke;
+    margin-right: 5rem; 
+}
+.members .order{
+    display: flex;
+}
+.order .desig p{
+    text-align: left;
+}
+.order .desig i:hover{
+    color: gold;
+}
+.members .comment {
+    margin: 20px;
+}
+.comment p{
+    text-align: left;
+}
+.Portfol{
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+.Portfol p{
+ text-align: center;
+}
+.naming{
+    text-align: center;
+}
+.naming a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 10px; 
+}
+.naming a:hover{
+    color: rgb(15, 74, 164);
+}
+.pics{
+    display: flex;
+}
+.pics div img{
+    height: 20rem;
+    width: 28rem;
+}
+.pics div{
+    border: 1px solid black;
+    margin: 20px;
+}
+.Team{
+    margin-left: 3rem;
+}
+.Team h1{
+    text-align: center;
+}
+.Team p{
+    text-align: center;
+}
+.our{
+    display: flex;
+    justify-content: space-between;
+}
+.our .mem{
+    height: 31rem;
+    width: 20rem;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    margin: 2em;
+}
+.our .mem img{
+    height: 20rem;
+    width:18.5rem;
+    margin: 12px;
+    border-radius: 10px;
+}
+.our .mem .icons{
+    text-align: center;
+    
+}
+.our .mem .icons i{
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: large;
+    margin: 10px;
+    line-height: 30px;
+}
+.icons i:hover{
+    color:rgb(15, 74, 164);
+    transition: 0.5s;
+}
+.Pricing{
+    background-color: whitesmoke;
+    padding-top: 2rem;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+}
+.plans{
+    display: flex;
+    margin-left: 3rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+.plans .low{
+    height: 28rem;
+    width: 20rem;
+    background-color: white;
+    box-shadow: black;
+    border-radius: 20px;
+}
+.plans .high{
+    height: 32rem;
+    width: 22rem;
+    background-color: white;
+    border: 2px solid rgb(15, 74, 164);
+    border-radius: 20px ;
+}
+.FAQ{
+    display: flex;
+    background-color: rgb(254, 254, 254);
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.FAQl{
+    margin-left: 5rem;
+    padding-right: 2rem;
+}
+.FAQl span{
+    text-align: left;
+    font-size: xx-large;
+}
+.FAQl h1 {
+    text-align: left;
+    font-size: xx-large;
+}
+.FAQl p{
+    text-align: left;
+}
+.FAQr select{
+    height:3rem;
+    margin: 1em;
+    width: 90%;
+    background-color: whitesmoke;
+    border: none;
+}
+section .Blogs{
+    margin-bottom: 3rem ;
+    background-color: whitesmoke;
+}
+.Blogs h3{
+    text-align: center;
+}
+.Blogs p{
+    text-align: center;
+}
+.Posts{
+    background-color: whitesmoke;
+    display: flex;
+    padding-left: 5rem;
+    justify-content: space-evenly;
+}
+.Posts div{
+    height: 5rem;
+    width:20rem;
+    background-color: white;
+    margin-bottom: 20rem;
+}
+.Posts div img{
+    height: 12rem;
+    width:20rem;
+}
+.Posts div .textpost{
+    margin-bottom: 2rem;
+}
+.Posts div .textpost p{
+    text-align: left;
+    padding-left: 1rem ;
+}
+.Posts div .imgpost img{
+    height: 3rem;
+    width:3rem;
+    border-radius: 30px;
+}
+.Posts div .imgpost{
+    display: flex;
+}
+.Contact_us{
+    margin-top: 10rem;
+}
